@@ -1,0 +1,128 @@
+baseURL: "http://harish.github.io"
+title: Scripts
+paginate: 5
+theme: PaperMod
+
+enableInlineShortcodes: true
+enableRobotsTXT: true
+buildDrafts: false
+buildFuture: false
+buildExpired: false
+
+# googleAnalytics: UA-123-45
+
+minify:
+  disableXML: true
+  # minifyOutput: true
+
+languages:
+  en:
+    languageName: "English"
+    weight: 1
+    menu:
+      main:
+        - name: About
+          url: about/
+          weight: 10
+        - name: Search
+          url: search/
+          weight: 20
+        - name: Tags
+          url: tags/
+          weight: 30
+
+outputs:
+  home:
+    - HTML
+    - RSS
+    - JSON
+
+params:
+  env: production
+  title: Scripts
+  description: ""
+  author: Harish Vutukuri
+
+  defaultTheme: dark
+  disableThemeToggle: false
+  ShowShareButtons: true
+  ShowReadingTime: true
+
+  disableSpecial1stPost: false
+  # displayFullLangName: true
+  ShowPostNavLinks: true
+  ShowBreadCrumbs: true
+  ShowToc: true
+  comments: false
+  images: []
+
+  assets:
+    favicon: "favicons/favicon.ico"
+
+  profileMode:
+    enabled: false
+    title: Harish Vutukuri
+    imageUrl: "images/bio-photo.png"
+    imageTitle: Harish Vutukuri
+    # imageWidth: 120
+    # imageHeight: 120
+    buttons:
+      - name: Posts
+        url: posts
+
+  homeInfoParams:
+    Title: "Scripts"
+    Content: >
+      Welcome to my Blog.
+
+      - **Scripts** contains the Intermediate and Advanced Python Snippets.
+
+  socialIcons:
+    - name: github
+      url: "https://github.com/harish678"
+    - name: linkedin
+      url: "https://www.linkedin.com/in/harishvutukuri/"
+    - name: twitter
+      url: "https://twitter.com/iharishv"
+    - name: email
+      url: "mailto:harish678@outlook.com"
+    - name: RsS
+      url: "index.xml"
+
+taxonomies:
+  category: categories
+  tag: tags
+  series: series
+
+markup:
+  highlight:
+    # anchorLineNos: true
+    codeFences: true
+    guessSyntax: true
+    lineNos: false
+    # noClasses: false
+    style: monokai
+
+privacy:
+  vimeo:
+    disabled: false
+    simple: true
+
+  twitter:
+    disabled: false
+    enableDNT: true
+    simple: true
+
+  instagram:
+    disabled: false
+    simple: true
+
+  youtube:
+    disabled: false
+    privacyEnhanced: true
+
+services:
+  instagram:
+    disableInlineCSS: true
+  twitter:
+    disableInlineCSS: true

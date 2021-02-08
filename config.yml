@@ -1,4 +1,4 @@
-baseURL: "http://harish.github.io"
+baseURL: "/"
 title: Scripts
 paginate: 5
 theme: PaperMod

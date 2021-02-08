@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>python on Scripts</title>
+    <link>http://harish678.github.io/tags/python/</link>
+    <description>Recent content in python on Scripts</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <lastBuildDate>Fri, 29 Jan 2021 00:00:00 +0000</lastBuildDate><atom:link href="http://harish678.github.io/tags/python/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Decorators</title>
+      <link>http://harish678.github.io/posts/decorators/</link>
+      <pubDate>Fri, 29 Jan 2021 00:00:00 +0000</pubDate>
+      
+      <guid>http://harish678.github.io/posts/decorators/</guid>
+      <description>Introduction Before looking into Decorators, we need to know key points about Functions in Python.
+ Functions are Objects. Means they can be referenced, passed as an argument, can be returned as well.  Decorators dynamically alter the functionality of a function, method, or class without having to directly use subclasses or change the source code of the function being decorated Implementaion Function as a Decorator Boilerplate Code:
+import functools def decorator(func): @functools.</description>
+    </item>
+    
+    <item>
+      <title>Context Manager</title>
+      <link>http://harish678.github.io/posts/contextmanager/</link>
+      <pubDate>Mon, 27 Jan 2020 00:00:00 +0000</pubDate>
+      
+      <guid>http://harish678.github.io/posts/contextmanager/</guid>
+      <description>Introduction Context managers allow you to allocate and release resources precisely when you want to. The most widely used example of context managers is the with statement.
+Suppose you have two related operations which you’d like to execute as a pair, with a block of code in between. Context managers allow you to do specifically that.
+Implementaion In the below example we will implement a program to open the file and read its contents using two methods.</description>
+    </item>
+    
+  </channel>
+</rss>

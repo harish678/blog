@@ -5,7 +5,18 @@
     <link>http://harish678.github.io/</link>
     <description>Recent content on Scripts</description>
     <generator>Hugo -- gohugo.io</generator>
-    <lastBuildDate>Fri, 29 Jan 2021 00:00:00 +0000</lastBuildDate><atom:link href="http://harish678.github.io/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Wed, 10 Feb 2021 00:00:00 +0000</lastBuildDate><atom:link href="http://harish678.github.io/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Iterators and Generators</title>
+      <link>http://harish678.github.io/posts/iteratorgenerator/</link>
+      <pubDate>Wed, 10 Feb 2021 00:00:00 +0000</pubDate>
+      
+      <guid>http://harish678.github.io/posts/iteratorgenerator/</guid>
+      <description>Iterator Iterator is an object that can loop over iterable objects. We can use Iterator in for loops. A list is a well known Iterator.
+Implementaion An object can be a Iterator, if we implement two methods:
+ __iter__ - returns the object itself. __next__ - returns the next values and raises StopIteration exception when all objects are looped.   Generator Generator functions allow you to declare a function that behaves like an iterator.</description>
+    </item>
+    
     <item>
       <title>Decorators</title>
       <link>http://harish678.github.io/posts/decorators/</link>

@@ -1,7 +1,7 @@
 ---
 author: "Harish Vutukuri"
 title: "Context Manager"
-date: "2021-01-27"
+date: "2020-01-27"
 description: "Guide to creating context managers in python"
 tags: ["python", "advanced"]
 ShowToc: true

@@ -5,7 +5,19 @@
     <link>http://harish678.github.io/tags/advanced/</link>
     <description>Recent content in advanced on Scripts</description>
     <generator>Hugo -- gohugo.io</generator>
-    <lastBuildDate>Wed, 10 Feb 2021 00:00:00 +0000</lastBuildDate><atom:link href="http://harish678.github.io/tags/advanced/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Thu, 11 Feb 2021 00:00:00 +0000</lastBuildDate><atom:link href="http://harish678.github.io/tags/advanced/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Meta Classes</title>
+      <link>http://harish678.github.io/posts/metaclass/</link>
+      <pubDate>Thu, 11 Feb 2021 00:00:00 +0000</pubDate>
+      
+      <guid>http://harish678.github.io/posts/metaclass/</guid>
+      <description>Introduction A Metaclass means the class of a class. In Python Classes are objects, which are instances of some Class.
+As can see below every Class in Python are instance of a class type.
+class Example: pass &amp;gt;&amp;gt;&amp;gt; type(Example) &amp;lt;class &amp;#39;type&amp;#39;&amp;gt;  type is a MetaClass in Python which is responsible for classes creation.
+  Dynamic Class creation using type()   When type() is called with one argument, it returns the argument type.</description>
+    </item>
+    
     <item>
       <title>Iterators and Generators</title>
       <link>http://harish678.github.io/posts/iteratorgenerator/</link>

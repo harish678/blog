@@ -5,7 +5,18 @@
     <link>http://harish678.github.io/</link>
     <description>Recent content on Scripts</description>
     <generator>Hugo -- gohugo.io</generator>
-    <lastBuildDate>Thu, 11 Feb 2021 00:00:00 +0000</lastBuildDate><atom:link href="http://harish678.github.io/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Mon, 15 Feb 2021 00:00:00 +0000</lastBuildDate><atom:link href="http://harish678.github.io/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Abstraction</title>
+      <link>http://harish678.github.io/posts/abc/</link>
+      <pubDate>Mon, 15 Feb 2021 00:00:00 +0000</pubDate>
+      
+      <guid>http://harish678.github.io/posts/abc/</guid>
+      <description>Introduction Abstraction is the process of hiding the real implementation of an application from the user and emphasizing only on usage of it.
+ Abstraction in Python is achieved by using Abstract Base Classes (ABCs) 1. The abc module in Python library provides the infrastructure for defining custom abstract base classes.
+ Abstract classes are classes that contain one or more abstract methods and generally provides incomplete functionality. An abstract method is a method that is declared, but contains no implementation.</description>
+    </item>
+    
     <item>
       <title>Meta Classes</title>
       <link>http://harish678.github.io/posts/metaclass/</link>
